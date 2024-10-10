@@ -57,7 +57,7 @@ With {% data variables.product.prodname_emus %}, you can control the user accoun
 
 ## Interactions
 
-* {% data variables.enterprise.prodname_managed_users_caps %} can view all public repositories on {% data variables.product.prodname_dotcom_the_website %}, but cannot interact with repositories outside of the enterprise in any of the following ways:
+* {% data variables.enterprise.prodname_managed_users_caps %} can view all public repositories, but cannot interact with repositories outside of the enterprise in any of the following ways:
   * Push code to the repository
   * Create issues or pull requests within the repository
   * Create or comment on discussions within the repository
@@ -89,3 +89,4 @@ With {% data variables.product.prodname_emus %}, you can control the user accoun
 * Cannot create gists or comment on gists.
 * Cannot create personalized profiles.
 * Do not have access to the {% data variables.product.prodname_certifications %} program.
+* Do not have an individual storage allocation. They can still generate content that counts against the enterprise storage allocation, but cannot create content that consumes storage at a user level, such as by publishing packages.

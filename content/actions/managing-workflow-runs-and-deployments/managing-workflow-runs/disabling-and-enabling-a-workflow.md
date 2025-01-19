@@ -22,13 +22,10 @@ Temporarily disabling a workflow can be useful in many scenarios. These are a fe
 * A workflow that sends requests to a service that is down.
 * Workflows on a forked repository that aren't needed (for example, scheduled workflows).
 
-{% warning %}
+> [!WARNING]
+> {% data reusables.actions.scheduled-workflows-disabled %}
 
-**Warning:** {% data reusables.actions.scheduled-workflows-disabled %}
-
-{% endwarning %}
-
-You can also disable and enable a workflow using the REST API. For more information, see "[AUTOTITLE](/rest/actions/workflows)."
+You can also disable and enable a workflow using the REST API. For more information, see [AUTOTITLE](/rest/actions/workflows).
 
 ## Disabling a workflow
 
@@ -40,7 +37,7 @@ You can also disable and enable a workflow using the REST API. For more informat
 1. Click {% octicon "kebab-horizontal" aria-label="Show workflow options" %} to display a dropdown menu and click **Disable workflow**.
 
    {% ifversion workflow-nav-2022 -%}
-   ![Screenshot of a workflow. The "Show workflow options" button, labeled with a horizontal kebab icon, and the "Disable workflow" menu item are outlined in dark orange.](/assets/images/help/repository/actions-disable-workflow-2022.png)
+   ![Screenshot of a workflow. The "Show workflow options" button, shown with a kebab icon, and the "Disable workflow" menu item are outlined in orange.](/assets/images/help/repository/actions-disable-workflow-2022.png)
    {%- else -%}
    ![Screenshot of a workflow. Features apart from the "Disable workflow" menu item are grayed out.](/assets/images/help/repository/actions-disable-workflow.png)
 

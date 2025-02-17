@@ -20,6 +20,9 @@ topics:
   - User account
 shortTitle: Subscriptions & billing date
 ---
+
+{% data reusables.billing.enhanced-billing-platform-personal-accounts %}
+
 ## Finding your personal account's next billing date
 
 {% data reusables.user-settings.access_settings %}
@@ -39,11 +42,8 @@ shortTitle: Subscriptions & billing date
 
 {% data reusables.enterprise-accounts.billing-perms %}
 
-{% note %}
-
-**Note:** You cannot view your next billing date if your enterprise account is invoiced.
-
-{% endnote %}
+> [!NOTE]
+> You cannot view your next billing date if your enterprise account is invoiced.
 
 {% data reusables.enterprise-accounts.access-enterprise %}
 {% data reusables.enterprise-accounts.settings-tab %}
@@ -53,4 +53,4 @@ shortTitle: Subscriptions & billing date
 
 ## Further reading
 
-* "[AUTOTITLE](/billing/managing-the-plan-for-your-github-account/about-billing-for-plans)"
+* [AUTOTITLE](/billing/managing-the-plan-for-your-github-account/about-billing-for-plans)

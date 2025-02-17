@@ -3,9 +3,9 @@ title: Enabling Copilot secret scanning's generic secret detection
 shortTitle: Enable generic secret detection
 intro: 'You can enable {% data variables.secret-scanning.generic-secret-detection %} for your repository or organization. Alerts for generic secrets, such as passwords, are displayed in a separate list on the {% data variables.product.prodname_secret_scanning %} alerts page.'
 allowTitleToDifferFromFilename: true
+permissions: '{% data reusables.permissions.security-repo-enable %}'
 versions:
   feature: secret-scanning-ai-generic-secret-detection
-product: '{% data reusables.gated-features.secret-scanning %}'
 type: how_to
 topics:
   - Secret scanning
@@ -40,7 +40,7 @@ You can then enable {% data variables.secret-scanning.generic-secret-detection %
 1. In the "Security" section of the sidebar, click **{% octicon "codescan" aria-hidden="true" %} Code security** then **Global settings**.
 1. Under "Secret scanning", select the checkbox next to "Scan for generic secrets".
 
-For information on how to view alerts for generic secrets that have been detected using AI, see "[AUTOTITLE](/code-security/secret-scanning/managing-alerts-from-secret-scanning/viewing-alerts)."
+For information on how to view alerts for generic secrets that have been detected using AI, see [AUTOTITLE](/code-security/secret-scanning/managing-alerts-from-secret-scanning/viewing-alerts).
 
 ## Further reading
 

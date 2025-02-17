@@ -1,6 +1,6 @@
 ---
 title: Adding information to your receipts
-intro: 'You can add extra information to your {% data variables.product.product_name %} receipts, such as tax or accounting information required by your company or country.'
+intro: 'You can add extra information to your {% data variables.product.github %} receipts, such as tax or accounting information required by your company or country.'
 redirect_from:
   - /github/setting-up-and-managing-billing-and-payments-on-github/adding-information-to-your-receipts
   - /articles/can-i-add-my-credit-card-number-to-my-receipts
@@ -25,13 +25,12 @@ topics:
 shortTitle: Add to your receipts
 ---
 
-Your receipts include your {% data variables.product.prodname_dotcom %} subscription as well as any subscriptions for other paid features and products. For more information, see "[AUTOTITLE](/billing/managing-your-github-billing-settings/about-billing-on-github)."
+{% data reusables.billing.enhanced-billing-platform-personal-accounts %}
 
-{% warning %}
+Your receipts include your {% data variables.product.prodname_dotcom %} subscription as well as any subscriptions for other paid features and products. For more information, see [AUTOTITLE](/billing/managing-your-github-billing-settings/about-billing-on-github).
 
-**Warning**: For security reasons, we strongly recommend against including any confidential or financial information (such as credit card numbers) on your receipts.
-
-{% endwarning %}
+> [!WARNING]
+> For security reasons, we strongly recommend against including any confidential or financial information (such as credit card numbers) on your receipts.
 
 ## Adding information to your personal account's receipts
 
@@ -46,11 +45,8 @@ You can add information to your personal account's receipts, such as a VAT or GS
 
 You can add information to your organization's receipts, such as a VAT or GST identification number, or your full business name or address of record.
 
-{% note %}
-
-**Note**: {% data reusables.dotcom_billing.org-billing-perms %}
-
-{% endnote %}
+> [!NOTE]
+> {% data reusables.dotcom_billing.org-billing-perms %}
 
 {% data reusables.organizations.billing-settings %}
 1. At the top of the page, click **Payment information**.
